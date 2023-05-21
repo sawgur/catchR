@@ -1,11 +1,10 @@
-/* Reset styles */
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global styles */
+
 body {
   font-family: 'Outfit', sans-serif;
   background-color: #fff;
@@ -19,7 +18,7 @@ body {
   padding: 0 20px;
 }
 
-/* Header */
+
 header {
   background-color: #000;
   position: fixed;
@@ -52,7 +51,7 @@ header {
   color: #fff;
 }
 
-/* Hero */
+
 .hero {
   background-image: url('hero-background.jpg');
   background-size: cover;
@@ -77,7 +76,6 @@ header {
   color: #fff;
 }
 
-/* Sections */
 .section-title {
   font-size: 36px;
   font-weight: bold;
@@ -115,7 +113,6 @@ header {
   font-size: 18px;
 }
 
-/* Contact Form */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -135,7 +132,7 @@ header {
   height: 150px;
 }
 
-/* Footer */
+
 footer {
   background-color: #000;
   padding: 20px 0;
@@ -148,7 +145,6 @@ footer p {
   color: #fff;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 12px 20px;
@@ -159,7 +155,7 @@ footer p {
   border-radius: 4px;
 }
 
-/* Animation */
+
 .animate {
   opacity: 0;
   transform: translateY(20px);
